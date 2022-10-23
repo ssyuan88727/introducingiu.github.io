@@ -7798,7 +7798,7 @@ fieldset:disabled .btn {
 
 .sticky-top {
     position: sticky;
-    top: 0;
+    top: 0%;
 }
 
 .sticky-bottom {
@@ -12714,8 +12714,9 @@ a{
 a:hover{
     color: pink;
 }
-.sidebar-sticky{
-    position: sticky;
-    top: 10%;
-}
+
+body {
+    min-height: 75rem;
+    padding-top: 3.5rem;
+  }
 /*# sourceMappingURL=bootstrap.min.css.map */
