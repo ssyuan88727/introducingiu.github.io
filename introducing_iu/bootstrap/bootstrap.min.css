@@ -8280,6 +8280,10 @@ fieldset:disabled .btn {
     width: 50% !important
 }
 
+.w-70{
+    width: 70% !important
+}
+
 .w-75 {
     width: 75% !important
 }
@@ -12718,5 +12722,10 @@ a:hover{
 body {
     min-height: 75rem;
     padding-top: 3.5rem;
-  }
+}
+
+.sidebar-sticky{
+    position: sticky;
+    top: 10%;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
