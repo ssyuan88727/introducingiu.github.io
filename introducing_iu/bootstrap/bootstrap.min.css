@@ -342,7 +342,9 @@ svg {
 
 table {
     caption-side: bottom;
-    border-collapse: collapse
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: auto;
 }
 
 caption {
@@ -2044,7 +2046,7 @@ progress {
     width: 100%;
     margin-bottom: 1rem;
     color: var(--bs-table-color);
-    vertical-align: top;
+    vertical-align: middle;
     border-color: var(--bs-table-border-color)
 }
 
@@ -7795,17 +7797,13 @@ fieldset:disabled .btn {
 }
 
 .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020
 }
 
 .sticky-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
-    z-index: 1020
 }
 
 @media (min-width:576px) {
@@ -12678,7 +12676,7 @@ div>a:hover{
         display: none;
     }
 }
-.limgbox{
+.imgbox-start{
     font-size: 10px;
     width: 200px;
     border: 1px solid #C8CCD1;
@@ -12689,7 +12687,7 @@ div>a:hover{
     margin-right: 20px;
 }
 
-.rimgbox{
+.imgbox-end{
     font-size: 10px;
     width: 200px;
     border: 1px solid #C8CCD1;
@@ -12701,8 +12699,23 @@ div>a:hover{
     margin-left: 20px;
 }
 
+.imgbox-start>div, .imgbox-end>div{
+    text-align: left;
+}
+
 .boximg{
     width: 190px;
     text-align: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: pink;
+}
+.sidebar-sticky{
+    position: sticky;
+    top: 10%;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

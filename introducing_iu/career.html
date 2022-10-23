@@ -1,140 +1,728 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Introducing IU\職業生涯</title>
-        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-        <script src="bootstrap/bootstrap.bundle.min.js"></script>
-        <link rel="icon" href="img/uaena.ico" type="image/x-icon"/>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing IU\職業生涯</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="img/uaena.ico" type="image/x-icon" />
+  </head>
 
-    <body>
-      <!--導覽列-->
-      <header id="top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-pink bg-gradient">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">IU-李知恩（歌手、演員）</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="gallery" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Gallery
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="gallery">
-                    <li><a class="dropdown-item" href="#">2012年</a></li>
-                    <li><a class="dropdown-item" href="#">2013年</a></li>
-                    <li><a class="dropdown-item" href="#">2014年</a></li>
-                    <li><a class="dropdown-item" href="#">2015年</a></li>
-                    <li><a class="dropdown-item" href="#">2016年</a></li>
-                    <li><a class="dropdown-item" href="#">2017年</a></li>
-                    <li><a class="dropdown-item" href="#">2018年</a></li>
-                    <li><a class="dropdown-item" href="#">2019年</a></li>
-                    <li><a class="dropdown-item" href="#">2020年</a></li>
-                    <li><a class="dropdown-item" href="#">2021年</a></li>
-                    <li><a class="dropdown-item" href="#">2022年</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="about-her" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    About Her
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="about-her">
-                    <li><a class="dropdown-item disabled">職業生涯</a></li>
-                    <li><a class="dropdown-item" href="endorsement.html">廣告代言</a></li>
-                    <li><a class="dropdown-item" href="dispute.html">爭議</a></li>
-                    <li><a class="dropdown-item" href="fan-club.html">官方歌迷會</a></li>
-                    <li><a class="dropdown-item" href="personal-life.html">個人生活</a></li>
-                    <li><a class="dropdown-item" href="music.html">音樂作品</a></li>
-                    <li><a class="dropdown-item" href="concert.html">演唱會</a></li>
-                    <li><a class="dropdown-item" href="films.html">影視作品</a></li>
-                    <li><a class="dropdown-item" href="awards.html">獎項與提名</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="links" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Offical Links
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="links">
-                    <li><a class="dropdown-item" href="http://www.edam-ent.com/html/sub03/sub03_0301_view">EDAM</a></li>
-                    <li><a class="dropdown-item" href="https://www.universal-music.co.jp/iu/">日本環球</a></li>
-                    <li><a class="dropdown-item" href="https://www.facebook.com/iu.loen">Facebook</a></li>
-                    <li><a class="dropdown-item" href="https://www.instagram.com/dlwlrma/">Instagram</a></li>
-                    <li><a class="dropdown-item" href="https://twitter.com/lily199iu">Twitter-個人</a></li>
-                    <li><a class="dropdown-item" href="https://twitter.com/_IUofficial">Twitter-官方</a></li>
-                    <li><a class="dropdown-item" href="https://cafe.daum.net/IU">Cafe Daum</a></li>
-                    <li><a class="dropdown-item" href="https://www.vlive.tv/channel/FA895">V Live</a></li>
-                    <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww">Youtube</a>
-                    </li>
-                  </ul>
-                </li>
-      
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>      
-
-      <!--主頁-->
-      <div id="carousel" class="carousel carousel-dark slide bg-dark mb-3" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/21766442_528661504134089_4039776917555333060_n.jpg" class="d-block w-50 mx-auto" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>《花書籤2》</h5>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/43601400_745563839110520_6108549071033597952_n.jpg" class="d-block w-50 mx-auto" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>《BBIBBI》</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/18193042_459485001051740_2232704051962093504_o.jpg" class="d-block w-50 mx-auto" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>《Palette》</h5>
-            </div>
+  <body>
+    <!--導覽列-->
+    <header id="top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-pink bg-gradient fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">IU-李知恩（歌手、演員）</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="gallery" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Gallery
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="gallery">
+                  <li><a class="dropdown-item" href="#">2012年</a></li>
+                  <li><a class="dropdown-item" href="#">2013年</a></li>
+                  <li><a class="dropdown-item" href="#">2014年</a></li>
+                  <li><a class="dropdown-item" href="#">2015年</a></li>
+                  <li><a class="dropdown-item" href="#">2016年</a></li>
+                  <li><a class="dropdown-item" href="#">2017年</a></li>
+                  <li><a class="dropdown-item" href="#">2018年</a></li>
+                  <li><a class="dropdown-item" href="#">2019年</a></li>
+                  <li><a class="dropdown-item" href="#">2020年</a></li>
+                  <li><a class="dropdown-item" href="#">2021年</a></li>
+                  <li><a class="dropdown-item" href="#">2022年</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="about-her" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About Her
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="about-her">
+                  <li><a class="dropdown-item disabled">職業生涯</a></li>
+                  <li><a class="dropdown-item" href="endorsement.html">廣告代言</a></li>
+                  <li><a class="dropdown-item" href="dispute.html">爭議</a></li>
+                  <li><a class="dropdown-item" href="fan-club&personal-life.html">官方歌迷會 & 個人生活</a></li>
+                  <li><a class="dropdown-item" href="music.html">音樂作品</a></li>
+                  <li><a class="dropdown-item" href="concert.html">演唱會</a></li>
+                  <li><a class="dropdown-item" href="films.html">影視作品</a></li>
+                  <li><a class="dropdown-item" href="awards.html">獎項與提名</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="links" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Offical Links
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="links">
+                  <li><a class="dropdown-item" href="http://www.edam-ent.com/html/sub03/sub03_0301_view">EDAM</a></li>
+                  <li><a class="dropdown-item" href="https://www.universal-music.co.jp/iu/">日本環球</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/iu.loen">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/dlwlrma/">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://twitter.com/lily199iu">Twitter-個人</a></li>
+                  <li><a class="dropdown-item" href="https://twitter.com/_IUofficial">Twitter-官方</a></li>
+                  <li><a class="dropdown-item" href="https://cafe.daum.net/IU">Cafe Daum</a></li>
+                  <li><a class="dropdown-item" href="https://www.vlive.tv/channel/FA895">V Live</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww">Youtube</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </nav>
+    </header>
+
+    <!--主頁-->
+    <div id="carousel" class="carousel carousel-dark slide bg-dark mb-3" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-3"></div>
-          <div class="col-12 col-md-6"></div>
-          <div class="col-12 col-md-3"></div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/21766442_528661504134089_4039776917555333060_n.jpg" class="d-block w-50 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>《花書籤2》</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/43601400_745563839110520_6108549071033597952_n.jpg" class="d-block w-50 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>《BBIBBI》</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/18193042_459485001051740_2232704051962093504_o.jpg" class="d-block w-50 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>《Palette》</h5>
+          </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <div><a class="btn top-btn" href="#top"><h3>︽</h3></a></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <ul class="ps-5 sidebar-sticky text-nowrap fs-4">
+            <li class="nav-item"><a href="#2008-2009">2008-2009年</a></li>
+            <li class="nav-item"><a href="#2010-2011">2010-2011年</a></li>
+            <li class="nav-item"><a href="#2012">2012年</a></li>
+            <li class="nav-item"><a href="#2013-2014">2013-2014年</a></li>
+            <li class="nav-item"><a href="#2015-2016">2015-2016年</a></li>
+            <li class="nav-item"><a href="#2017-2018">2017年-2018年</a></li>
+            <li class="nav-item"><a href="#2019-2020">2019-2020年</a></li>
+            <li class="nav-item"><a href="#2021">2021年至今</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 id="職業生涯">職業生涯</h2>
+          <hr>
 
-      <footer class="h-25">
-        <div class="bg-pink bg-gradient text-center">ssyuan&copy;</div>
-      </footer>
-    </body>
+          <h3 id="2008-2009"><b>2008-2009年：出道</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_on_October_29,_2009_02.jpg">
+              <div>IU於2009年10月29日表演《Boo》</div>
+            </div>
+
+            <div>
+              <p>
+                2008年9月18日，IU於Mnet的音樂節目《M! Countdown》中以演唱《迷兒》一曲正式出道。24日，
+                首張迷你專輯《Lost and Found》正式發行。時年15歲的IU獲得了柳熙烈等實力派音樂人的支持，
+                並讚賞她前途無可限量。然而她獨特的曲風及唱腔在當時難以得到大眾的喜愛。
+              </p>
+              <p>
+                2009年4月23日，IU的首張正規專輯《Growing Up》發行。專輯主打歌《Boo》在三週內成為SBS的
+                音樂節目《人氣歌謠》一位候選，並於其他音樂節目和線上音源排行榜取得佳績。其後續曲《不是嗎！
+                (Rock ver.)》繼續專輯宣傳，直至8月15日結束。
+              </p>
+              <p>
+                IU演唱了於2009年5月播出的MBC電視劇善德女王中的《風之花》和《阿拉路》兩首歌曲，因其「清澈
+                的嗓音和抒情情感」得到了導演的推崇。2009年11月12日，第二張迷你專輯《IU...IM》正式發行。
+                次日，以《棉花糖》作為主打歌於KBS的音樂節目《音樂銀行》回歸，可愛的曲風使她進一步獲大眾認
+                識及喜愛。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2010-2011"><b>2010-2011年：人氣高漲與電視劇出演</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/IU_singing_in_court.jpg">
+              <div>2011年1月3日</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2010年中期，IU和2AM成員瑟雍為MBC綜藝節目《我們結婚了》合唱主題曲《嘮叨》。6月27日，IU憑該
+                曲於SBS的音樂節目《人氣歌謠》獲得出道後首個一位，其後在7月2日於KBS的音樂節目《音樂銀行》中
+                同樣獲得一位。該曲令IU的成就更上一層樓，更為人所熟悉。12月9日，第三張迷你專輯《Real》正式
+                發行。專輯主打歌《好日子》（좋은 날）產生轟動，日韓歌迷爭相模仿，歌曲中的「三段高音」至今為
+                人津津樂道。IU憑此曲分別於SBS《人氣歌謠》及KBS《音樂銀行》奪得出道後首個三連冠，並於Mnet的
+                音樂節目《M! Countdown》中首得一位。
+              </p>
+              <p>
+                IU經常用吉他翻唱其他流行歌手的歌，其好友MBLAQ的天動也有參與。最有名的翻唱是SHINee的《Juliette》、
+                Big Bang的《謊言》、Big Bang的《If you》、Super Junior的《Sorry, Sorry》和少女時代的《Gee》。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_(Korean_singer)_from_acrofan.jpg">
+              <div>2011年6月29日，IU在韓國參加活動</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2011年1月，IU以主演之一的身份首次出演KBS2的電視劇《夢想起飛Dream High》，正式向演技領域進軍，
+                並因該劇受到觀眾喜愛。IU為電視劇演唱的《Someday》也於同期發行，不過有網友發現其與歌手Ash演唱的
+                《To My Man》相似，並指責作曲家朴軫永抄襲。作曲家金新日起訴朴軫永，並最終勝訴。
+              </p>
+              <p>
+                《好日子》一曲受到不少歌迷的喜愛，但因宣傳時間較短讓IU留下不少的遺憾。因此在2月17日，額外收錄有
+                3首新曲的改版迷你專輯《Real+》正式發行。據韓國線上音樂公司Soribada的統計，《好日子》為2011年第
+                一季最多人下載的歌曲。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/111103-SIA아이유.jpg">
+              <div>IU參加了2011年11月3日舉辦的《Style Icon Awards》</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2011年3月20日，IU成為SBS音樂節目《人氣歌謠》的主持之一。5月14日，IU參與日本富士電視台在東京舉辦
+                的《Tokyo Legend 2011》慈善演唱會，為16組韓國演出人員之一。表演其後在7月17日通過富士電視台播出。
+                同月，IU為電視劇《最佳愛情》獻唱《抓住我的手》。6月18日，適逢IU出道後的第1004日，於AX-Korea
+                舉辦了首次官方歌迷見面會及迷你演唱會。7月13日，參與KBS在日本東京舉辦的《Music Bank in Tokyo》
+                演唱會，為15組韓國演出人員之一。
+              </p>
+              <p>
+                2011年11月29日，IU的第二張正規專輯《Last Fantasy》甫發行便橫掃韓國各大音樂榜單，專輯的全部13首
+                歌曲迅速佔據了各大音樂網站榜單的1至13位。海外方面，專輯在iTunes專輯排行榜中獲得名次；日本及澳洲
+                獲得第一名；美國及加拿大獲得第三名；紐西蘭獲得第十名。12月23日，在KBS的音樂節目《音樂銀行》年末
+                結算中以《好日子》取得年度一位。全年憑《Last Fantasy》主打曲《You & I》分別於KBS《音樂銀行》及
+                SBS《人氣歌謠》中連續6次及3次獲獎。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2012"><b>2012年：日本出道、《二十歲的春天》及首個演唱會</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/200px-2012_IU_04.jpg">
+              <div>2011年1月3日</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2012年1月24日，IU在東京澀谷Bunkamura果園大廳舉行Showcase，正式在日本出道。日本媒體《日刊體育》的
+                記者稱「非常期待IU今後的表現」。3月1日，IU發布了日文單曲《好日子》的宣傳影片。15日，參與KBS在
+                越南河內舉辦的《Music Bank in Vietnam》演唱會，為7組韓國演出人員之一。21日，《好日子》發布，其中
+                包含她在日本舉辦Showcase的錄像。該曲在日本Oricon排行榜一進榜就登上第八名，單週排行榜上則拿下了第六
+                名的佳績，IU也是少數進入前10名的韓國獨立女歌手。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/IU_at_the_Expo_2012_Yeosu2.jpg">
+              <div>2011年1月3日</div>
+            </div>
+
+            <div class="content">
+              <p>
+                2012年4月初，經紀公司宣佈IU將於6月起開始舉行首次個人巡演，名為「Real Fantasy」。她將在包括首爾和釜
+                山在內的韓國6個不同城市演出。5月11日，第七張單曲《二十歲的春天》發行。專輯收錄了三首歌曲，其中歌
+                曲《桃子》（복숭아）為IU獨立創作，並提前於5月4日在網路發布。一段與專輯曲目《一天的盡頭》（하루 끝）
+                對應的長達26分鐘的紀錄片風格的MV也隨專輯發布，IU在MV中接受了幾個採訪，反應了一些她的經歷和個人想法。
+                短片中還包含IU到義大利威尼斯旅遊的鏡頭。因演唱會準備工作，IU不得不暫時退出《SBS人氣歌謠》的主持，直
+                到演唱會完畢。6月23日，IU在演唱會期間參加了KBS在香港舉辦的《K-Pop Festival Music Bank in Hong Kong》
+                演唱會，為8組韓國演出人員之一。7月18日，第二張日文單曲《You & I》正式發行。
+              </p>
+              <p>
+                12月，經紀公司LOEN娛樂宣布IU將於2013年憑全新專輯回歸。專輯預計將於3至4月發行，並以成熟為主題，與以往
+                「國民妹妹」的形象截然不同。12月29日，IU與miss A的裴秀智和演員鄭糠雲共同主持SBS除夕年度音樂節目
+                《SBS歌謠大戰》。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2013-2014"><b>2013-2014年：《Modern Times》與《花書籤》</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_on_October_16,_2013_(2).jpg">
+              <div>IU於首爾慶熙大學和平殿堂舉辦第二次個人演唱會，攝於2013年10月16日</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                IU在2013年3月至8月播出的KBS週末劇《王牌大明星》中飾演女主角李純信。3月20日，IU在日本推出首張日語
+                迷你專輯《Can You Hear Me?》。封面照中IU顛覆以往甜美可愛的鄰家妹妹形象，轉型成熟女人散發誘人香
+                氣，吸引眾人目光。與之前在當地發行的熱門歌曲《好日子》、《你和我》的日語版不同的是，該輯收錄有首次
+                以日語進行原創的歌曲。4月，一名朝鮮團體有關人士表示IU因《王牌大明星》一劇在朝鮮受到喜愛，並稱「現
+                在朝鮮每個人都知道誰是IU」。7月28日，IU結束歷時2年4個月的《SBS人氣歌謠》主持工作。8月25日，IU在
+                《王牌大明星》大結局後，於網上公開與男主角曹政奭的合唱曲《Beautiful Song》，相隔一年多再次推出新
+                歌。9月10日，第三張日文單曲《Monday Afternoon》完整MV由官方提前公開，該曲於11日正式發行。
+              </p>
+              <p>
+                9月17日，官方確定IU將在10月7日憑正規三輯《Modern Times》的推出回歸，並發表了一組帶有專輯名稱的概念
+                照。概念照中，IU揮別過去可愛形象，以全新成熟的面貌回歸。同日，亦公開了一幅導向地圖，地圖中隱藏關於專
+                輯歌曲的提示，其中將有不同風格的歌曲，像是爵士樂、巴薩諾瓦、搖擺樂以及拉丁流行音樂等。9月23日至10月4日
+                ，以《雙唇之間》為首，並透過音源網站Melon公開專輯曲目。10月8日韓國時間凌晨0時，正規三輯《Modern Times》
+                音源正式上線，短短數小時間便橫掃各大在線音樂網站排行榜，更席捲了各大音樂節目。繼二輯《Last Fantasy》後，
+                全輯13首歌曲再次攻占了音源榜第1至13名。翌日於ichart的週榜達到「Perfect All-kill」。主打歌《紅舞鞋》
+                （분홍신）更於回歸的第二個星期便橫掃所有音樂節目一位。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/IU_at_Modern_Times_concert_in_Busan,_on_December_1,_2013_(cropped).jpg">
+              <div>IU於2013年12月1日在釜山現代演唱會</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                10月15日，LOEN娛樂稱，IU將於11月23至24日在首爾慶熙大學和平殿堂舉辦第二次個人演唱會，並於12月1日在釜山
+                KBS演播大廳與粉絲見面。10月22日，IU確認接拍KBS全新水木劇《漂亮男人》。這也是繼上半年出演的《王牌大明星》
+                後，IU再次嘗試挑戰演技。
+              </p>
+              <p>
+                12月20日，IU推出《Modern Times》的改版專輯《Modern Times - Epilogue》，額外收錄兩首新歌《星期五見面》
+                及《Pastel Crayons》。《星期五見面》（금요일에 만나요）由IU自創，並邀請後輩History的張利貞合唱。而
+                《Pastel Crayons》則是新人作曲家KZ與Junjaman共同製作，同時也是IU主演的劇集《漂亮男人》的原聲帶收錄曲。
+                該專輯也包含她第二場個人演唱會的DVD和特別寫真冊。《星期五見面》發布後橫掃ichart的所有日榜一位排名。凌晨
+                0時，歌曲達到「Perfect All-kill」，這也是IU繼10月推出《紅舞鞋》後第二次獲得「Perfect All-kill」。
+                另外，《星期五見面》在沒有任何演出的情況下即在韓國三大音樂節目中獲得得一位。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/200px-IU_at_Melon_Music_Awards,_13_November_2014_02.jpg">
+              <div>IU獲甜瓜音樂獎後致詞，攝於2014年11月13日</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                繼2012年6月IU在香港第一次亮相後，2014年3月23日IU在香港舉行《Modern Times》的Showcase。IU還與新男團High4
+                合唱主打歌《除了春天、愛情和櫻花》，歌曲於4月8日發表。2014年5月7日，《除了春天、愛情和櫻花》登上美國告
+                示牌雜誌「K-Pop Chart」榜首。因此IU超越其他歌手成為該榜在2011年9月成立以來得到最多榜首（五首）的歌手。並繼
+                續在最多周數佔據第一名（14周）上領先。
+              </p>
+              <p>
+                5月16日，翻唱專輯《花書籤》音源正式公開，專輯中翻唱了七名韓國前輩歌手的歌曲。三天後，專輯歌曲《我以前的故事》
+                （나의 옛날이야기）達到「Perfect All-kill」，成為IU第5首獲得該稱號的歌曲。5月22日至6月1日，IU於首爾西江大
+                學Mary Hall舉辦8場小型演唱會《One More Step... Just That Much》，表演歌曲中包括新專輯內全部七首歌曲。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/IU_at_the_Pretty_Man_Summer_Festival_in_Tokyo,_19_July_2014.jpg">
+              <div>2014年7月19日，東京漂亮男人夏日季～Love is Beautiful～</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                6月30日，IU與Ulala Session的合作曲《焦急的心》發布。這首合作歌曲早在2012年已錄製完成，但因Ulala Session隊
+                長林允澤因胃癌突然離世，公開時間被延遲。7月8日，IU參唱的g.o.d八輯中的一首收錄曲《為我唱歌》（노래 불러줘요）
+                發布。8月9日，IU參與在美國洛杉磯舉辦的《KCON 2014》演唱會，為10組韓國演出人員之一。部份表演其後在8月14日在
+                Mnet電視頻道以命名《M! Countdown 2 Nights in LA》節目播出。這是IU首次在美國出演，演出前還接受了美國《告示牌》
+                雜誌的採訪。8月21日，IU翻唱專輯《花書籤》限量版LP正式發行。除了收錄在普通版的7首歌外，而IU未公開的照片也收錄在LP中。
+              </p>
+              <p>
+                10月2日，IU與徐太志合作的歌曲《昭格洞》IU版本音源公開。這次的「昭格洞企劃」，以「女生立場和男生立場上看到的八
+                十年代昭格洞發生的悲傷美麗故事」為主題，通過兩首歌和兩個MV，像解謎一樣講述兩個秘密故事。這是徐太志出道22年來，
+                第一次讓其他歌手演唱他作詞、作曲、製作的歌曲。10月31日，IU和K-pop Star 1出身歌手尹賢尚合作的出道專輯主打歌
+                《When would it be》（언제쯤이면）音源和MV公開。
+              </p>
+              <p>
+                12月4日，IU為感謝粉絲的支持，在YouTube發布了非公開曲《膝蓋》。12月24日，IU翻唱歌手D.ear的作品《12月24日》，
+                作為聖誕禮物送給粉絲。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2015-2016"><b>2015-2016年：《製作人》、《月人之戀》、無限挑戰歌謠祭與《CHAT-SHIRE》</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_Chat-shire_concert_in_Busan,_29_November_2015_03.jpg">
+              <div>IU於Chat-Shire演唱會期間，2015年11月29日</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2015年3月9日，IU確定出演於5月播出的新劇《製作人》。與金秀賢、車太鉉及孔曉振合作，飾演13歲開始練習生生活，出
+                道10年的女歌手趙仁英Cindy一角。3月15日，SBS電視台表示IU將為全新綜藝節目《拜託爸爸》演唱主題曲，並於3月21日
+                公開。5月18日，IU的自作曲《心》音源公開。此曲曾在《製作人》劇中登場，但並不以正式OST發行，而是IU送給粉絲們的
+                一份驚喜禮物。此曲隨後橫掃韓國各大線上音源榜的實時及日榜一位排名，亦在iChart取得一位成績。
+              </p>
+              <p>
+                6月3日，經紀公司LOEN娛樂宣布與IU續約三年。IU與公司的合約將在九月到期，而公司表示基於合作七年的信任與義氣，已
+                經和IU在無簽約金的條件之下完成續約。8月13日，IU參加兩年一度的《無限挑戰 嶺東高速公路歌謠祭》，並與朴明洙搭檔
+                演出。8月22日，無限挑戰歌謠祭音源正式公開，IU與朴明洙之作品《Leon》於翌日公開。8月24日，《Leon》於ichart週
+                榜達成「Perfect All-kill」，為IU第6首得到該稱號的歌曲。
+              </p>
+              <p>
+                10月21日，IU繼2014年後再次到香港，舉行Showcase《2015 I&U in HongKong》，地點定於九龍灣國際展貿中心匯星Star Hall舉
+                行，並以廣東話唱出香港女歌手謝安琪的《囍帖街》，贏得全場掌聲。10月23日，IU發表第四張迷你專輯《CHAT-SHIRE》，
+                專輯為其親自製作，並參參與專輯收錄曲的作詞作曲。24日，主打歌《二十三》於MelOn、Genie、Naver Music、Olleh Music、
+                Mnet、Soribada、Bugs、Monkey3達成「Perfect All-kill」，為IU第7首得到該稱號的歌曲。11月8號，IU於上海舉行首次中
+                國Showcase《2015 I&U in Shanghai》，於上海大舞台舉行。12月20日，IU在北京匯源中心舉行演唱會，並翻唱了宋冬野的民謠
+                歌曲《斑馬，斑馬》，她表示自己為練習這首歌在三周之內聽了一千多遍原唱。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg"
+                src="img/IU_at__Moon_Lovers_-_Scarlet_Heart_Ryeo__press_conference,_24_August_2016_07.jpg">
+              <div>2016年8月24日，《月之戀人－步步驚心：麗》</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2016年1月4日，IU確定出演於9月播出的新劇《月之戀人－步步驚心：麗》。與李準基、姜漢娜、洪宗玄、伯賢、南柱赫及金志洙
+                合作，飾演一個從21世紀穿越到高麗時代的女子，是一個自己命運掌握在自己手中的極具個性的角色。1月10日於台灣的台北國際
+                會議中心舉行見面會，並首度嘗試以台語表演，翻唱了莫文蔚的《愛情》，該歌曲除了標準漢語外，還有包含了台語的部分。1月
+                中，《月之戀人－步步驚心：麗》正式開拍。此劇以事前製作的方式進行拍攝，有別於多數韓劇「邊拍邊播」的製劇方式。7月1日
+                凌晨，IU完成了五個多月於韓國各地進行的拍攝工作。完成拍攝後，IU前往中國舉辦《GOODDAY》見面會「IU GOODDAY IN CHINA 2016」
+                ，並於7月9日的廣州演唱會作為開始，前往長沙、南京、重慶、武漢、深圳和成都，共7個城市舉辦巡迴演唱。8月29日，《月之戀人
+                －步步驚心：麗》正式播出，並於海外多個頻道同步播出。12月3及4日，IU於首爾奧林匹克公園的 SK手球競技場舉辦一連兩場演唱會
+                《24 STEPS: ONE TWO THREE FOUR (스물 네 걸음: 하나 둘 셋 넷)》，除了歌舞演出之外，IU也在演唱會中坦率真誠地跟歌迷們
+                分享過去幾年她的內心世界。12月16日，IU再次到香港，於香港會議展覽中心Hall 5 BC舉辦《IU CONCERT 24 STEPS IN HONG KONG》
+                演唱會，並表演《囍帖街》、《喜歡你》兩首中文粵語歌曲，贏得各界讚賞。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2017-2018"><b>2017-2018年：正規四輯《Palette》、《孝利家民宿》、第二張翻唱專輯《花書籤2》、《我的大叔》與出道十周年單曲《BBIBBI》</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_on__Yoo_Hee-yeol's_Sketchbook_,_25_April_2017_05.jpg">
+              <div>IU於2017年4月25日在《柳熙烈的寫生簿》上表演</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2017年3月，經紀公司表示IU會在4月21日發行第四張正規專輯，並會在3月24日、4月7日先後公開兩首先行曲，展開約五週的大規模
+                「PRE-RELEASE」計劃。3月20日，公開首支專輯先行曲《夜信》的概念海報，並於22日公開預告影片。3月24日韓國時間下午6時，
+                《夜信》音源公開，翌日韓國時間早上7點，《夜信》在Melon、Genie、Mnet等7大音源榜單全數獲得了1位。3月26日韓國時間00:30
+                首次達成All-kill，3月27日韓國時間00:30 完成Perfect All-kill，為IU第八首達成Perfect All-kill的歌曲。4月7日韓國時
+                間下午6時，第二首先行曲《Can't Love You Anymore》音源公開。並於4月10日韓國時間00:30 完成Perfect All-kill，亦是相
+                隔兩星期後再次達成Perfect All-kill的歌曲。4月13日，IU再度透過官方 Facebook 公開曲目表。IU 不僅參與了大部分的作詞
+                工作，也邀請了吳赫、鮮于正雅、Sam Kim 等人一同製作。其中，專輯同名主打歌《Palette》親自作曲作詞，並邀請BIGBANG成員
+                G-Dragon參與饒舌配唱；而第二首主打歌《致名字 （韓語：이름에게）》則是由IU與知名作詞人金伊娜共同填詞。其中主打歌《Pa
+                lette》亦在發佈三天後，亦達成Perfect All-kill，成為此專輯第三首完成Perfect All-kill的歌曲。整張專輯在五大音樂節目
+                中，獲得共十二個一位的佳績，當中更於SBS《人氣歌謠》中連續3次獲獎。5月，IU出演綜藝節目《孝利家民宿》，擔任兩周的民宿職
+                員，IU在節目中展現出勤奮的敬業精神以及待人的親切和善，使節目大獲好評。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/IU_at_a_signing_event_at_COEX_on_April_27,_2017_(4).jpg">
+              <div>IU於2017年4月30日在《Palette》粉絲簽名會</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2017年9月1日，經紀公司宣布IU預計將於9月中旬發表第二張翻唱專輯《花書籤2》的消息，這次是事隔3年再次發表翻唱專輯，也是繼
+                四月發行的正規專輯《Palette》後五個月發行專輯。另外，IU將會在24日於首爾梨花女子大學Samsung Hall 舉行出道9周年粉絲見
+                面會，預計會在見面會上公開第二張翻唱專輯《花書籤2》的舞台。 8日，經紀公司確定IU將會在9月22日發行第二張翻唱專輯《花書
+                籤2》，也公開了音源日程和專輯封面。 18日，IU在韓國時間上午7時奇襲公開一首先行曲《秋日早晨》，是由吉他手鄭晟河負責編曲
+                、演奏，知名民謠音樂人Hareem演奏哨笛。並公開第二支預告影片。19日，韓國時間14:30 首次達成All-kill，20日，韓國時間22:30
+                完成Perfect All-kill，為IU第十一首達成Perfect All-kill的歌曲。。11月至12月，IU在韓國國內外五個都市舉行2017巡迴演唱會
+                -《Palette》，延續專輯中IU二十五歲的故事。2017年，IU透過正規專輯《Palette》、翻唱專輯《花書籤2》等音樂作品，於韓國
+                蓋洛普民調中心的「年度閃耀歌手」排行榜中登上冠軍寶座。IU先後獲得各大音樂頒獎典禮的奬項, 其中於甜瓜音樂獎憑正規專輯《P
+                alette》獲得年度專輯大賞, 更於2018年舉行的金唱片獎中獲得音源大賞，以及Gaon Chart K-POP大獎中取得五個獎項成為大贏家，
+                受到許多樂迷喜愛。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/30571556_616257918707780_8110134470989840384_n.jpg">
+              <div>IU於2018年4月11日《我的大叔》新聞發布會</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2018年3月，IU與李善均合作出演的 TvN 水木連續劇《我的大叔》首播，劇中IU飾演一個二十多歲，在社會底層中掙扎的約聘職員李至
+                安一角。由於男女主角的年齡設定相差超過20歲，因此本片在播出前已引起非議，甚至有民眾揚言拒看。首集播出時出現女主角被毆打的
+                暴力畫面、以及竊聽、不倫等情節，因為當時韓國正值「#MeToo」反性侵運動風潮，很多觀眾認為此劇會對社會帶來不好的影響，進而向
+                政府及放送通信委員會投訴。另一方面，此劇由社會中小人物的故事出發，反映了韓國社會最真實的縮影，也讓很多民眾產生共鳴，而呈
+                現評價兩極的趨勢。此兩極趨勢甚至也出現在影視圈內－2018年底由韓國媒體Joynews24對演藝從業相關人員約200人進行問卷調查「20
+                18年最佳電視劇」和「2018年最差電視劇」，調查中本片在「最佳電視劇」中拿到17票排名第四，卻也在「最差電視劇」獲得4票而共列
+                第八名，同時登上最佳和最差電視劇榜單。不過本片在中國的影評網站豆瓣中拿到9.4分，居該站2018年度韓劇首位，且此劇後來也獲得
+                多項提名與獎項，IU本人更獲得了第6屆APAN Star Awards 「中篇電視劇——女子最優秀演技賞」，洗刷了2016演出《月之戀人－步步
+                驚心：麗》時對其演技不佳的爭議。IU後來曾在談話節目《對話的喜悅》中提到，在本片拍攝初期時身心狀況非常不好，是嚴重到需要住
+                院的程度。幾經思量之後告訴金元錫導演：「之前拍攝的內容，無論如何都會想辦法去賠償。我現在最好退出拍攝。」沒想到導演聽完之
+                後哭著表示：「非常抱歉，拍攝的時候只覺得李至安這個角色所需要的孤獨和寂寞感，你表現得真好，沒想到實際上是在這麼困難的狀態
+                下演出。」IU表示聽完導演這番話後產生「因為這位導演，我能堅持下去，還要做得更好」的想法，繼續參與演出。同時導演也在後續的
+                拍攝中給予很多照顧，讓她有充分的時間休息和往返醫院。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/118200766_1240958709571028_665811265080437381_n.jpg">
+              <div>2018年9月15日十週年粉絲見面會</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2018年7月18日，經紀公司Kakao M宣布與IU續約，公司表示雖然距離合約期滿還有幾個月的時間，但IU基於與公司之間的信任，因而決
+                定提前續約。7月18日，歌手ZICO經紀公司表示將於7月30日發行由IU 參與配唱的單曲《SoulMate》。二人繼2009年 IU 迷你二輯主打
+                歌《Marshmallow》後，睽違九年再次合作。兩大音源強盜時隔九年再度，一推出便以 ALL-KILL 的方式，空降韓國各大數位排行榜冠
+                軍。歌曲以慵懶的Soul曲風為底，加入小號、薩克斯風等樂器實地收音，配合IU的柔和歌聲，加上ZICO的饒舌與歌唱實力，描繪一場與
+                「靈魂伴侶」相遇的浪漫想像。9月12日，經紀公司透露，IU 將出演由自己主演的短篇系列電影，並由不同導演，以不同的主題和概念
+                製作成短篇系列電影，是IU出道以來首次挑戰大螢幕。9月15日，IU 舉辦《IU+》粉絲見面會慶祝出道十週年，並透露下半年將舉行十
+                週年巡迴演唱會。10月1日，IU公開了一張回歸預告照，宣布將於10月10日發行出道10週年紀念數位單曲《BBI BBI》，經紀公司表示原
+                本今年並沒有訂定正式發行新曲的計畫，然而因為適逢出道10週年，所以決定驚喜發行數位單曲。《BBIBBI》於10月10日公開音源後，橫
+                掃各大韓國音源榜的一位，隨後在短時間內完成Perfect All-kill，此曲為IU第十二首達成Perfect All-Kill 的歌曲，並於24小時內
+                以142萬次的播放次數，打破Melon單日的用戶收聽記錄。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2019-2020"><b>2019-2020年：《Persona》、《德魯納酒店》、迷你五輯《Love Poem》與數位單曲《Eight》</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/200px-IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1).jpg">
+              <div>2019年1月5日於「dlwlrma」演唱會表演</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2019年4月，IU出演《Persona》（又名《女孩，四繹》）。此為Netflix出品的南韓獨立單元劇，由導演李京美、林弼成、全高雲、
+                金宗寬分別執導的四部獨立短篇電影所組成，由IU一人分飾四角主演。不同於她以往相對清純的螢幕形象，IU在這部影集除了以帶有
+                獨特魅力的多變角色來給予觀眾一次新鮮的體驗之外，同時也是她首次挑戰19禁作品的大膽嘗試。《Persona》於Netflix2019年韓
+                國地區最受歡迎的節目中，位列第六。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/66299146_913980538935515_2950309809825513472_n.jpg">
+              <div>2018年7月8日《德魯納酒店》新聞發布會</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2019年7月13日，IU與呂珍九合作出演的 tvN週末連續劇《德魯納飯店》首播，IU在劇中飾演外在高傲冷僻，內心卻很孤寂的飯店社
+                長張滿月。《德魯納飯店》編劇洪氏姊妹曾表示：「我們在企劃的時候，選角如果不是李知恩，就沒有代替方案了。如果李知恩不出演
+                ，這個項目就會停止。」 洪氏姊妹更高度評價IU：「看了李知恩在《我的大叔》呈現的清冷感覺之後，覺得她能很好地展現張滿月這
+                個角色。她在舞台上非常有魅力，張滿月需要擁有能抓住數千名觀眾的魄力，能有那種氣場的20代女演員就是李知恩。向李知恩提議後
+                ，她真的是很慎重的人，說雖然角色很帥氣但很擔心。我們說『我們看過妳的這種面貌，會幫妳展現這一面的。』當時她鼓起勇氣出演
+                ，真的非常感謝。」自從劇集播出後，她的演技實力與時尚品味再次受到大眾關注，個人Instagram 的追蹤者數目更大為上升。此劇也
+                在由韓流國際文化交流振興院舉辦的「海外最喜愛韓劇」調查中拿下了綜合排名首位。
+              </p>
+              <p>
+                2019年10月1日，IU在個人Instagram上公開了2019年亞洲巡迴演唱會《Love poem》的預告照，引發討論是否回歸。10月10日，IU上
+                傳了《Love Poem》概念照，圖中的IU身處花叢中，一襲洋裝配上從未嘗試過的紫藍髮色引發討論。10月11日，IU所屬經紀公司Kakao M
+                正式宣佈IU將於11月1日攜第五張迷你專輯回歸歌壇，此張專輯是IU距離十週年紀念單曲《BBIBBI》時隔後1年的回歸。10月20日，IU於
+                Fancafe上發文「我原訂於11月1日發行的新專輯《Love poem》，日期稍微往後延了。由於距離同名公演只剩兩週，有關公演的各種訊息
+                、曲目表都是問題，也讓我和工作人員都未了日程而傷透腦筋，但老實說，我好像還需要一些時間。」專輯確定延後至11月18日發行，而
+                原訂於10月28日公開的同名先行曲則改為11月1日發行。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img src="img/IU_in__Love_Poem__Concert_in_Seoul_on_23rd_November_2019.jpg">
+              <div>2019年11月23日於「Love Poem」演唱會首爾場上表演</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2020年1月，IU 與合作長達近12年的經紀人裴鍾漢 （韓文：배종한）所成立的全新經紀公司EDAM Entertainment簽訂專屬合約，成為
+                該公司旗下首位藝人。新成立的 EDAM Entertainment 接受 IU 原公司 Kakao M 的投資，屬於 Kakao M 旗下的子公司之一，作未來
+                計劃推廣唱片、公演企劃、製作等各方面的事業。
+              </p>
+              <p>
+                2020年2月1日，IU確定將參與演唱tvN戲劇《愛的迫降》OST，這也是IU繼2011年為劇集《最佳愛情》演唱OST《抓住我的手》之後，時隔
+                9年再次演唱OST並發表音源。 2月15日韓國時間晚上6點，《愛的迫降》OST《Give You My Heart》於各大音源網站上線，並快速於各
+                大音源網站上獲得一位，隨後在短時間內完成Perfect All-kill，為IU第十五首達成Perfect All-kill的歌曲。2月19日，IU獲邀參加
+                米蘭Gucci2020冬季時裝週，並被宣佈為Gucci韓國區品牌大使。2月28日，IU被選為今年國稅行政的宣傳人，作為宣傳大使委任後一年內
+                ，將為國稅行政進行宣傳，她更獲被評為模範納稅人，獲夢想之路表彰。
+              </p>
+              <p>
+                2020年3月15日，《W Korea》與Gucci合作，IU登上《W Korea》雜誌四月刊封面，以領悟與人類一體的生態系統為概念，而IU將化身為
+                轉動地球的兩個齒輪——水和大地。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/87154223_1095952327405001_2615484286962237440_n.jpg">
+              <div>2020年2月19日於Gucci米蘭時裝秀</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2019年11月1日韓國時間晚上6點，同名先行曲於各大音源網站上線。音源發佈後一小時，在音源網站Melon、Bugs、Genie空降一位，
+                Soribada則是空降五位，並在短時間內完成Perfect All-kill，為IU第十三首達成Perfect All-kill的歌曲。同日晚間八點，在音
+                源網站Melon、Bugs、Genie、Soribada以及Naver均獲得一位。11月2日，IU在光州開始為期兩個月的第二個亞洲巡迴演唱會「 Love Poem」
+                ，期間她到訪10個城市。11月16日，並無打歌宣傳活動的《Love poem》一曲，在音源、短訊投票滿分的情況下，得到8,830得高分，
+                成為《音樂中心》11月第三週的一位。11月18日韓國時間0點，公開新曲《Blueming》預告。 同日韓國時間晚上6點，完整專輯正式
+                於各大音源網站上線，並在Youtube公開MV，主打歌《Blueming》快速於各大音源網站上獲得一位，隨後在短時間內完成Perfect All-kil
+                ，為IU第十四首達成Perfect All-kill的歌曲。11月25日，IU 的《好日子》在美國告示牌的2010年代最佳K-pop歌曲排行(英語：
+                The 100 Greatest K-Pop Songs of the 2010s)位列榜首，成為K-pop近十年最具代表性的歌曲。2019年12月9日，IU與成始璄合
+                唱的數位單曲《First Winter》於韓國時間晚上6點在各大音源網站上線，此次是IU和成始璄繼2010年9月發表的《是你》之後時隔9年再次合作。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/119673207_1267037656963133_4076106050773816651_n.jpg">
+              <div>2020年9月18日於《柳喜烈的寫生簿》</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2020年4月27日，IU所屬經紀公司EDAM娛樂透露，IU即將於5月6日回歸樂壇，繼去年11月發行的迷你專輯《Love Poem》和12月發行的數
+                位單曲《First Winter》後，時隔5個月將推出全新數位單曲《Eight》，目前MV已經拍攝完畢，IU這次除了作詞作曲外，也積極投入歌
+                曲整體概念等等，已經在最後階段。而這次的新歌是和防彈少年團成員SUGA合作，希望一起創造出更不同的音樂，EDAM娛樂更進一步透露
+                ：「IU和SUGA同齡又同樣是音樂人，能夠分享許多感到共鳴的部分，並將之融入音樂更相得益彰。」 5月5日，IU在Youtube發佈了數位單
+                曲《Eight》預告片。5月6日韓國時間晚上6點，數位單曲《Eight》於各大音源網站上線，首小時即以19萬收聽在Melon創下2017年初改版
+                至今，第一首空降破表歌曲並打破歷史首小時收聽紀錄。五小時後，在韓國時間晚上11點取得六大音樂網站排行榜的實時一位，達成
+                "Realtime All-Kill"。《Eight》發布十小時後，Youtube觀看次數突破一千萬，並於二十四小時內，在美國、法國、新加坡、紐西蘭、
+                芬蘭、馬來西亞、菲律賓等共59個國家和地區的iTunes熱門歌曲榜拿下第一名。《Eight》在Melon首日收聽134萬，為歷史第三，至此Melon
+                首日收聽歷史紀錄前三皆為IU所有，而《Eight》在Genie為歷史上最快突破十萬收聽次數的歌曲。5月8日，《Eight》在早上七時半達成iChart
+                榜單的"Certified All-Kill"。5月11日，《Eight》在凌晨十二時半達成iChart榜單的"Perfect All-Kill"，為IU第十六首達成
+                Perfect All-kill的歌曲。
+              </p>
+              <p>
+                2020年6月12日，IU以作詞人身份參與Brown Eyed Girls主唱JeA新曲《Greedyy》，並為CJ ENM x Big Hit 的全新選秀節目「I-LAND」
+                演唱主題曲《Into the I-LAND》，於6月19日韓國時間晚上6點發行。
+              </p>
+              <p>
+                2020年7月，根據韓國媒體 OSEN 報導，IU 已於近日參加呂珍九主演的tvN 綜藝節目《帶輪子的家》並完成錄影，作為該節目的第四位來賓。
+              </p>
+              <p>
+                2020年11月6日，IU所屬經紀公司EDAM娛樂透過官方SNS宣布，《Eight》的MV在推出六個月後觀看次數超過了1億次，是繼歌曲《BBIBBI》
+                及《Not Spring, Love, or Cherry Blossoms》MV破億後第四次刷新紀錄，是IU的MV中最快突破1億次觀看的作品。
+              </p>
+            </div>
+          </div>
+
+          <h3 id="2021"><b>2021年至今：正規五輯《LILAC》、數位單曲《strawberry moon》與特別迷你專輯《碎片輯》</b></h3>
+          <div>
+            <!--pic-->
+            <div class="imgbox-end">
+              <img class="boximg" src="img/160463658_1402423800091184_703811527010208753_n.jpg">
+              <div>2021年4月，IU在《W Korea》</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2021年1月9日，IU在韓國第35屆金唱片獎（Golden Disc Awards）頒獎典禮中獲頒最大殊榮的「音源大賞」，是她相隔三年再獲頒音源
+                部門大獎。她於發表感言時曾預告「今年會久違的帶來正規專輯」，並表示希望她的音樂作品能帶給疲憊不堪的人們一點力量。2021年1月11日
+                ，所屬公司EDAM娛樂表示IU已在籌備第五張正規專輯，該作的先行曲《Celebrity》於1月27日推出。這將是IU繼2017年4月發行的第四張正規
+                專輯《Palette》後，時隔近四年再度發行的正規專輯。1月31日，《Celebrity》在晚上七時半達成iChart榜單的"Perfect All-Kill"，為I
+                U第十八首達成Perfect All-Kill的歌曲。
+              </p>
+              <p>
+                2021年3月25日，發表第五張正規專輯《LILAC》回歸，主打曲為《LILAC (라일락)》和《Coin》。
+              </p>
+              <p>
+                2021年10月19日韓國時間上午0時，數位單曲《strawberry moon》於各大音源網站上線。
+              </p>
+              <p>
+                2021年12月26日韓國時間下午6時，數位迷你專輯《碎片集》於各大音源網站上線。
+              </p>
+              <p>
+                2022年6月8日，IU參演的電影《掮客》於韓國影院上映。
+              </p>
+            </div>
+
+            <!--pic-->
+            <div class="imgbox-start">
+              <img class="boximg" src="img/IU_posing_for_Marie_Claire_Korea_March_2022_issue_03.jpg">
+              <div>2022年3月，IU在《Marie Claire Korea》</div>
+            </div>
+
+            <!--內容-->
+            <div class="content">
+              <p>
+                2022年7月27日，繼2019年舉辦巡迴演唱會《Love poem》後，IU 宣布時隔三年將於9月17、18日在首爾奧林匹克主競技場舉辦演唱會
+                《THE GOLDEN HOUR》，成為第一位在首爾奧林匹克主競技場舉辦演唱會的韓國女歌手。
+              </p>
+              <p>
+                2022年8月，韓媒宣布IU將出演電視劇《人生》女主角，搭檔朴寶劍講述少年少女如四季般朦朧的人生故事。
+              </p>
+              <p>
+                2022年9月17日至18日，IU在首爾奧林匹克主競技場（蠶室）舉辦盛大演唱會《The Golden Hour：在橙色太陽下》，並說明罹患「耳咽
+                管開放症」，同時也因心境差異，宣布未來將不在正式演唱會中演唱《Good day（好日子）》及《Palette（調色盤）》2首歌曲。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3"></div>
+      </div>
+    </div>
+
+    <div><a class="btn top-btn" href="#top">
+        <h3>︽</h3>
+      </a></div>
+
+    <footer>
+      <div class="bg-pink bg-gradient text-center">ssyuan&copy;</div>
+    </footer>
+  </body>
 </html>

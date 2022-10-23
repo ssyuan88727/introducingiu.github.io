@@ -16,9 +16,9 @@
     <body>
       <!--導覽列-->
       <header id="top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-pink bg-gradient fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-pink bg-gradient fixed-top mt-md-6">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">IU-李知恩（歌手、演員）</a>
+            <a class="navbar-brand">IU-李知恩（歌手、演員）</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link disabled" aria-current="page">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="gallery" role="button" data-bs-toggle="dropdown"
@@ -54,10 +54,10 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="about-her">
                     <li><a class="dropdown-item" href="career.html">職業生涯</a></li>
+                    <li><a class="dropdown-item" href="career.html">公益活動</a></li>
                     <li><a class="dropdown-item" href="endorsement.html">廣告代言</a></li>
                     <li><a class="dropdown-item" href="dispute.html">爭議</a></li>
-                    <li><a class="dropdown-item" href="fan-club.html">官方歌迷會</a></li>
-                    <li><a class="dropdown-item" href="personal-life.html">個人生活</a></li>
+                    <li><a class="dropdown-item" href="fan-club&personal-life.html">官方歌迷會 & 個人生活</a></li>
                     <li><a class="dropdown-item" href="music.html">音樂作品</a></li>
                     <li><a class="dropdown-item" href="concert.html">演唱會</a></li>
                     <li><a class="dropdown-item" href="films.html">影視作品</a></li>
@@ -78,11 +78,9 @@
                     <li><a class="dropdown-item" href="https://twitter.com/_IUofficial">Twitter-官方</a></li>
                     <li><a class="dropdown-item" href="https://cafe.daum.net/IU">Cafe Daum</a></li>
                     <li><a class="dropdown-item" href="https://www.vlive.tv/channel/FA895">V Live</a></li>
-                    <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww">Youtube</a>
-                    </li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww">Youtube</a></li>
                   </ul>
                 </li>
-      
               </ul>
             </div>
           </div>
@@ -135,7 +133,7 @@
               藝名IU（韓語：아이유 A I Yu ），韓國創作歌手、演員。藝名「IU」是「I」和
               「You」的複合詞，意為「你我通過音樂成為一體」。
             </p>    
-            <div class="rimgbox">
+            <div class="imgbox-end">
               <img src="img/58419828_862232744110295_2388318158097219584_n.jpg" alt="" class="boximg">
             </div>  
             <p>
@@ -158,7 +156,7 @@
             </p>
 
             <div>
-              <table class="infobox mx-auto w-75">
+              <table class="infobox mx-auto w-75 mb-3">
                 <!--head-->
                 <thead>
                   <tr>
@@ -174,13 +172,16 @@
                       2019年5月17日
                     </td>
                   </tr>
+                  <tr>
+                    <th colspan="2" class="rounded-3 text-center bg-pink bg-gradient">
+                      女藝人
+                      <a data-bs-toggle="collapse" href="#panel" role="button" aria-expanded="false" aria-controls="panel" onclick="panel(this)">[展開]</a>
+                    </th>
+                  </tr>
                 </thead>
       
                 <!--body-->
-                <tbody>
-                  <tr>
-                    <th colspan="2" class="rounded-3 text-center bg-pink bg-gradient">女藝人</th>
-                  </tr>
+                <tbody class="collapse" id="panel">
                   <tr>
                     <th>本名</th>
                     <td>李知恩</td>
@@ -350,10 +351,6 @@
                     <th>馬-賴式</th>
                     <td>Aiyu</td>
                   </tr>
-                </tbody>
-      
-                <!--footer-->
-                <tfoot>
                   <tr>
                     <th colspan="2" class="text-center bg-pink bg-gradient rounded-3">獎項</th>
                   </tr>
@@ -381,7 +378,7 @@
                       </ul>
                     </td>
                   </tr>
-                </tfoot>
+                </tbody>
               </table>
             </div>
       
@@ -392,7 +389,7 @@
 
       <div><a class="btn top-btn" href="#top"><h3>︽</h3></a></div>
 
-      <footer class="h-25">
+      <footer>
         <div class="bg-pink bg-gradient text-center">ssyuan&copy;</div>
       </footer>
     </body>
