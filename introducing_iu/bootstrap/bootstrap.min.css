@@ -344,7 +344,7 @@ table {
     caption-side: bottom;
     border-collapse: collapse;
     text-align: center;
-    margin-top: auto;
+    margin-top: auto;    
 }
 
 caption {
@@ -2227,41 +2227,47 @@ progress {
 
 .table-responsive {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
+    width:100%;
 }
 
 @media (max-width:575.98px) {
     .table-responsive-sm {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch
+        -webkit-overflow-scrolling: touch;
+        width:100%;
     }
 }
 
 @media (max-width:767.98px) {
     .table-responsive-md {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch
+        -webkit-overflow-scrolling: touch;
+        width:100%;
     }
 }
 
 @media (max-width:991.98px) {
     .table-responsive-lg {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch
+        -webkit-overflow-scrolling: touch;
+        width:100%;
     }
 }
 
 @media (max-width:1199.98px) {
     .table-responsive-xl {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch
+        -webkit-overflow-scrolling: touch;
+        width:100%;
     }
 }
 
 @media (max-width:1399.98px) {
     .table-responsive-xxl {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch
+        -webkit-overflow-scrolling: touch;
+        width:100%;
     }
 }
 
@@ -9976,6 +9982,30 @@ fieldset:disabled .btn {
 }
 
 @media (min-width:768px) {
+    .fs-md-1 {
+        font-size: calc(1.375rem + 1.5vw) !important
+    }
+    
+    .fs-md-2 {
+        font-size: calc(1.325rem + .9vw) !important
+    }
+    
+    .fs-md-3 {
+        font-size: calc(1.3rem + .6vw) !important
+    }
+    
+    .fs-md-4 {
+        font-size: calc(1.275rem + .3vw) !important
+    }
+    
+    .fs-md-5 {
+        font-size: 1.25rem !important
+    }
+    
+    .fs-md-6 {
+        font-size: 1rem !important
+    }
+
     .float-md-start {
         float: left !important
     }
@@ -12646,6 +12676,12 @@ fieldset:disabled .btn {
 .text-center{
     text-align: center;
 }
+.text-start{
+    text-align: left;
+}
+.text-end{
+    text-align: right;
+}
 
 .top-btn {
     position: fixed;
@@ -12664,6 +12700,7 @@ fieldset:disabled .btn {
 .round-shape{
     border-radius: 25%;
 }
+
 th{
     white-space: nowrap;
 }
@@ -12727,5 +12764,8 @@ body {
 .sidebar-sticky{
     position: sticky;
     top: 10%;
+}
+.bg-lightpink{
+    background-color: #fae6e7;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
