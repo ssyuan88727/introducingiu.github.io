@@ -12768,4 +12768,7 @@ body {
 .bg-lightpink{
     background-color: #fae6e7;
 }
+:root {
+    scroll-padding-top: 4rem;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
